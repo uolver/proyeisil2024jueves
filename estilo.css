@@ -1,0 +1,47 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: justify;
+}
+
+img{
+    width: 200px;
+}
+
+#principal{
+    width: 80%;
+    margin: auto;
+    background-color: coral;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.contenido{
+    display: flex;
+}
+
+#perro1{
+    margin-right: 20px;
+    border-top-right-radius: 30px;
+}
+
+#perro2{
+    margin-left: 20px;
+    border-top-left-radius: 30px;
+}
+
+h1{
+    margin-bottom: 20px;
+}
+
+body{
+    background-image: url(imagenes/perro3.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 100%;
+}
